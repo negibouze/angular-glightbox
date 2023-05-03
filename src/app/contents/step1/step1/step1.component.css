@@ -1,6 +1,14 @@
 .container {
+  text-align: center;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.gallery {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
 }
 

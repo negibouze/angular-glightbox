@@ -1,5 +1,13 @@
-<div class="container">
-  <a *ngFor="let image of images" class="glightbox" [href]="image">
-    <img class="image" [src]="image" alt="">
-  </a>
+<div *ngFor="let gallery of galleries; index as i" class="container">
+  <h3 class="title">Gallery {{ i + 1 }}</h3>
+  <div class="gallery">
+    <a
+      *ngFor="let image of gallery"
+      class="glightbox"
+      [href]="image"
+      [attr.data-gallery]="'gallery' + (i + 1)"
+    >
+      <img class="image" [src]="image" alt="">
+    </a>
+  </div>
 </div>
