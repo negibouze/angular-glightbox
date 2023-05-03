@@ -1,0 +1,9 @@
+.title {
+  font-weight: 700;
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}

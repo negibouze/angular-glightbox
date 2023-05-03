@@ -1,0 +1,3 @@
+<div *ngFor="let gallery of galleries; index as i" class="container">
+  <app-gallery [title]="'Gallery' + (i + 1)" [images]="gallery"></app-gallery>
+</div>
