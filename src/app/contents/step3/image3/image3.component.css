@@ -1,0 +1,13 @@
+:host {
+  display: contents;
+}
+
+.image {
+  height: 200px;
+  object-fit: cover;
+  width: 200px;
+}
+
+.image:hover {
+  cursor: pointer;
+}

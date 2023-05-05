@@ -1,0 +1,4 @@
+<h3 class="title">{{ title }}</h3>
+<div class="gallery">
+  <app-image3 *ngFor="let image of images" [imageUrl]="image" (loaded)="loaded()"></app-image3>
+</div>
